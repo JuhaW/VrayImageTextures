@@ -36,6 +36,7 @@ class Vray_Mat_Show_Texture(bpy.types.Operator):
 		bpy.context.scene.render.engine = 'BLENDER_RENDER'
 		
 		sel_objs = [i for i in bpy.context.selected_objects if i.type == 'MESH']
+		print ("selected objects:", sel_objs)
 		for o in sel_objs:
 			
 			#print ("mesh object:", o.name)
