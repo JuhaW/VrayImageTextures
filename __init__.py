@@ -17,7 +17,7 @@ from bpy.props import StringProperty, IntProperty
 class Vray_Mat_Show_Texture(bpy.types.Operator):
 	'''Show selected objects uv mapped image textures on viewport'''
 	bl_idname = "vray.show_textures"
-	bl_label = "Show material textures"
+	bl_label = "Show image textures"
 		
 		
 	def execute(self, context):
