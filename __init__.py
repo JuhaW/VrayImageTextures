@@ -1,5 +1,5 @@
 bl_info = {
-	"name": "Vray Material textures",
+	"name": "Vray Image textures",
 	"author": "JuhaW",
 	"version": (1, 0, 0, 0),
 	"blender": (2, 7, 9, 0),
